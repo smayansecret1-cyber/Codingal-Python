@@ -13,3 +13,5 @@ codingal="codingal"
 print(codingal)
 name=input("enter your name: ")
 print("\n Hello",name,"\n welcome to codingal")
+print("\n Hello {}\n welcome to codingal".format(name))
+print(f"\n Hello {name}\n welcome to codingal")
