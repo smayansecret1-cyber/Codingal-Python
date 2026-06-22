@@ -1,0 +1,23 @@
+print("\n")
+
+print("\n")
+
+print("Welcome to the factorial app,we will tell the factorial of any number")
+
+print("\n")
+
+num=(input("enter the number whose factorial you wanna know :) :"))
+
+print("\n")
+
+blee=1
+
+for i in range (1,num+1):
+
+    blee=i*blee
+
+print(f"The factorial of {num} is {blee}")
+
+print("\n")
+
+print("\n")
